@@ -1,0 +1,36 @@
+:root{
+    --clr-font-dark:#FFF;
+    --clr-justwhite:#FFF;
+    --clr-background: #2b061a;
+    --clr-footer:#410928;
+    --clr-navbar: #410928;
+    --clr-shadow-nav: #0000002d;
+    --clr-shadow-footer: #0000002d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+body{
+    background-color: var(--clr-background);
+    color: var(--clr-font-dark);
+}
+
+nav{
+    background-color: var(--clr-navbar);
+    color: var(--clr-font-dark);
+    text-decoration: none;
+    box-shadow: 0px 5px 10px 3px var(--clr-shadow-nav);
+}
+
+footer{
+    box-shadow: 0px -10px 10px 3px var(--clr-shadow-footer);
+    background-color: var(--clr-footer);
+    height: 50px;
+    margin-top: 50px
+}
