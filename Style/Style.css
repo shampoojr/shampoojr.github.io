@@ -9,7 +9,9 @@
     --clr-hover:#54223e;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 ::-webkit-scrollbar{
     display: block;
