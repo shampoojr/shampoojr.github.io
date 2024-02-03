@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Meslo-Regular;
+}
+
+@font-face {
+  font-family: Meslo-Regular;
+  src: url(../Fonts/MesloLGLNerdFont-Bold.ttf);
+  font-weight: bold;
+}
+body {
+  background-color: #2b061a;
+  font-family: Meslo-Regular;
+}
+
+nav {
+  width: 100;
+  overflow: auto;
+  background-color: #410928;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.1764705882);
+}
+nav a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  color: white;
+  font-size: 36px;
+  transition: all 0.1s ease-in;
+  text-decoration: none;
+}
+nav a ::hover {
+  background-color: #54223e;
+}/*# sourceMappingURL=index.css.map */

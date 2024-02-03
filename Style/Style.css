@@ -18,13 +18,23 @@ html{
     width: 10px
 }
 
+::-webkit-scrollbar:hover{
+    display: block;
+    width: 15px
+}
+
 ::-webkit-scrollbar-track{
     background-color: #2b061a;
 
 }
 
 ::-webkit-scrollbar-thumb{
-    background: #FFF;
+    background: #5e0e3a;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: var(--clr-hover);
     border-radius: 1rem;
 }
 
@@ -86,8 +96,14 @@ footer li a{
     text-align: center;
     display:block;
 }
+iframe {
+    display: block;
+    
 
+}
 footer li a:hover{
 text-decoration: underline;
 text-decoration-thickness: 4px;
 }
+
+

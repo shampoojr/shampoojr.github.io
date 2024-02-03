@@ -1,0 +1,50 @@
+$clr-font-dark: #fff;
+$clr-justwhite: #fff;
+$clr-background: #2b061a;
+$clr-footer: #410928;
+$clr-navbar: #410928;
+$clr-shadow-nav: #0000002d;
+$clr-shadow-footer: #0000002d;
+$clr-hover: #54223e;
+
+* {
+        margin: 0;
+        padding: 0;
+        font-family: Meslo-Regular;
+}
+
+$Ubuntu-background: #2b061a;
+$font-regular: Meslo-Regular;
+
+@font-face {
+        font-family: Meslo-Regular;
+        src: url(../Fonts/MesloLGLNerdFont-Bold.ttf);
+        font-weight: bold;
+}
+
+body {
+        background-color: $Ubuntu-background;
+        font-family: $font-regular;
+}
+
+nav {
+        width: 100;
+        overflow: auto;
+        background-color: $clr-navbar;
+        color: $clr-font-dark;
+        text-decoration: none;
+        box-shadow: 0px 5px 10px 3px $clr-shadow-nav;
+        a {
+                ::hover {
+                        background-color: $clr-hover;
+                }
+                float: left;
+                width: 20%;
+                text-align: center;
+                padding: 12px 0;
+                color: white;
+                font-size: 36px;
+                transition: all 0.1s ease-in;
+                text-decoration: none;
+        }
+}
