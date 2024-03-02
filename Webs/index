@@ -14,8 +14,8 @@
     <nav>
         <ul>
             <li>
-                <a href="./index">Home</a>
-                <a href="./WebGL">GLTest</a>
+                <a href="./index.asp">Home</a>
+                <a href="./WebGL.asp">GLTest</a>
                 <a href="https://github.com/shampoojr"><i class="nf nf-dev-github"></i></a>
             </li>
         </ul>
@@ -28,9 +28,9 @@
     <footer>
         <ul>
             <li>
-                <a href="/Webs/About">About</a>
-                <a href="/Webs/Future">Future</a>
-                <a href="/WebGl/WebGL">Project GL</a>
+                <a href="/Webs/About.asp">About</a>
+                <a href="/Webs/Future.asp">Future</a>
+                <a href="/WebGl/WebGL.asp">Project GL</a>
             </li>
         </ul>
         <a class="hidden" id="Top" href="#Top">scroll to top</a>
