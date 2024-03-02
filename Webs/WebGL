@@ -21,7 +21,7 @@
         <div class="">
         <p>No content provided yet</p>
         
-    <script class="Test"></script>
+    <script class="Test" type="module" href="../Scripts/Index.js"> </script>
     </div>
         <div class="GL"></div>
     </main>
