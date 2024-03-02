@@ -12,7 +12,7 @@
     <nav>
         <ul>
             <li>
-                <a href="./index.asp">Home</a>
+                <a href="./index.html">Home</a>
                 <a href="./WebGl/WebGL.asp">GLTest</a>
             </li>
         </ul>
@@ -25,9 +25,9 @@
     <footer>
         <ul>
             <li>
-                <a href="About.html">About</a>
-                <a href="Future.html">Future</a>
-                <a href="WebGL.html">Project GL</a>
+                <a href="About.asp">About</a>
+                <a href="Future.asp">Future</a>
+                <a href="WebGL.asp">Project GL</a>
             </li>
         </ul>
     </footer>
