@@ -12,8 +12,8 @@
     <nav>
         <ul>
             <li>
-                <a href="./index.html">Home</a>
-                <a href="./WebGl/WebGL.html">GLTest</a>
+                <a href="./index.asp">Home</a>
+                <a href="./WebGl/WebGL.asp">GLTest</a>
             </li>
         </ul>
     </nav>
