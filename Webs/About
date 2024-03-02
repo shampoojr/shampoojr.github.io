@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Style/Style.css">
+    <link rel="stylesheet" href="./Style/index.css">
     <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css">
     <link rel="icon" type="image/x-icon" href="./Images/Ico/image2ws.ico">
     <title>About</title>
@@ -12,8 +12,8 @@
     <nav>
         <ul>
             <li>
-                <a href="index">Home</a>
-                <a href="WebGL">GLTest</a>
+                <a href="index.asp">Home</a>
+                <a href="WebGL.asp">GLTest</a>
             </li>
         </ul>
     </nav>
@@ -25,9 +25,9 @@
     <footer>
         <ul>
             <li>
-                <a href="About">About</a>
-                <a href="Future">Future</a>
-                <a href="WebGL">Project GL</a>
+                <a href="About.asp">About</a>
+                <a href="Future.asp">Future</a>
+                <a href="WebGL.asp">Project GL</a>
             </li>
         </ul>
         <iframe src="https://discord.com/widget?id=830581363706953799&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
