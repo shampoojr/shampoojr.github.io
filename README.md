@@ -1,1 +1,1 @@
-# https://shampoojr.com
+# shampoojr.github.io
