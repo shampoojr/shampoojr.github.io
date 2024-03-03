@@ -53,9 +53,6 @@ $font-bold: Meslo-Bold;
         text-transform: none;
         -webkit-font-smoothing: antialiased;
 }
-@import "https://www.nerdfonts.com/assets/css/webfont.css";
-
-
 
 
 * {
@@ -90,17 +87,21 @@ nav {
         color: $clr-font-dark;
         text-decoration: none;
         box-shadow: 0px 5px 10px 3px #0000002d;
-        a {
-                float: left;
-                width: 200px;
-                text-align: center;
-                padding: 12px 0;
-                color: white;
-                font-size: 36px;
-                transition: all 0.1s ease-in;
-                text-decoration: none;
-                :hover {
-                        background-color: var($clr-hover);
+        li {
+                a {
+                        float: left;
+                        width: 200px;
+                        text-align: center;
+                        padding: 12px 0;
+                        color: white;
+                        font-size: 36px;
+                        transition: all 0.1s ease-in;
+                        text-decoration: none;
+
+                }
+                
+                a:hover{
+                                background-color: $clr-hover;
                 }
         }
 }
@@ -117,8 +118,8 @@ main {
 
 //Footer
 footer {
-        a .hidden{
-          display: none;     
+        a .hidden {
+                display: none;
         }
         box-shadow: 0px -10px 10px 3px $clr-shadow-footer;
         background-color: $clr-footer;
@@ -129,7 +130,7 @@ footer {
                         :hover {
                                 text-decoration: underline;
                                 text-decoration-thickness: 4px;
-                                color:#54223e;
+                                color: #54223e;
                         }
                         color: white;
                         margin: 0;
