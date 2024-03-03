@@ -32,29 +32,6 @@ $font-bold: Meslo-Bold;
         border-radius: 1rem;
 }
 
-.nf {
-        font-feature-settings: normal;
-        font-kerning: auto;
-        font-optical-sizing: auto;
-        font-size: 36px;
-        font-stretch: 100%;
-        font-style: normal;
-        font-variant-alternates: normal;
-        font-variant-caps: normal;
-        font-variant-east-asian: normal;
-        font-variant-ligatures: normal;
-        font-variant-numeric: normal;
-        font-variant-position: normal;
-        font-variant-position: normal;
-        font-weight: 400;
-        line-height: 32px;
-        text-align: center;
-        text-size-adjust: 100%;
-        text-transform: none;
-        -webkit-font-smoothing: antialiased;
-}
-
-
 * {
         margin: 0;
         padding: 0;
@@ -81,26 +58,34 @@ body {
 
 //Navbar
 nav {
-        width: 100%;
-        overflow: auto;
+        // width: 100%;
+        overflow: hidden;
         background-color: $clr-navbar;
         color: $clr-font-dark;
-        text-decoration: none;
         box-shadow: 0px 5px 10px 3px #0000002d;
         li {
+                list-style-type: none;
+                float: left;
+                text-decoration: none;
                 a {
-                        float: left;
+                        display: block;
                         width: 200px;
                         text-align: center;
-                        padding: 12px 0;
+                        padding: 12px 0px;
                         color: white;
                         font-size: 36px;
                         transition: all 0.1s ease-in;
                         text-decoration: none;
                 }
-                
-                a:hover{
-                                background-color: $clr-hover;
+
+                a:hover {
+                        background-color: $clr-hover;
+                }
+        }
+        .right {
+                float: right;
+                a {
+                        width: 80px;
                 }
         }
 }
@@ -117,24 +102,25 @@ main {
 
 //Footer
 footer {
-
-        box-shadow: 0px -10px 10px 3px $clr-shadow-footer;
-        background-color: $clr-footer;
-        margin: 0;
-        overflow: auto;
-        li {
-                a {
-                        color: white;
-                        margin: 0;
-                        padding: 15px;
-                        text-decoration: none;
-                        list-style-type: none;
-                        text-align: center;
-                        display: block;
-                }
-                a:hover {
-                        text-decoration-thickness: 4px;
-                        background-color: #54223e;
+        ul {
+                box-shadow: 0px -10px 10px 3px $clr-shadow-footer;
+                background-color: $clr-footer;
+                margin: 0;
+                overflow: auto;
+                li {
+                        a {
+                                color: white;
+                                margin: 0;
+                                padding: 15px;
+                                text-decoration: none;
+                                list-style-type: none;
+                                text-align: center;
+                                display: block;
+                        }
+                        a:hover {
+                                text-decoration-thickness: 4px;
+                                background-color: #54223e;
+                        }
                 }
         }
 }

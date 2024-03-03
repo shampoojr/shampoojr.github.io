@@ -22,30 +22,6 @@
   border-radius: 1rem;
 }
 
-.nf {
-  font-feature-settings: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
-  font-size: 36px;
-  font-stretch: 100%;
-  font-style: normal;
-  font-variant-alternates: normal;
-  font-variant-caps: normal;
-  font-variant-east-asian: normal;
-  font-variant-ligatures: normal;
-  font-variant-numeric: normal;
-  font-variant-position: normal;
-  font-variant-position: normal;
-  font-weight: 400;
-  line-height: 32px;
-  text-align: center;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-          text-size-adjust: 100%;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -67,18 +43,21 @@ body {
 }
 
 nav {
-  width: 100%;
-  overflow: auto;
+  overflow: hidden;
   background-color: #410928;
   color: #fff;
-  text-decoration: none;
   box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.1764705882);
 }
-nav li a {
+nav li {
+  list-style-type: none;
   float: left;
+  text-decoration: none;
+}
+nav li a {
+  display: block;
   width: 200px;
   text-align: center;
-  padding: 12px 0;
+  padding: 12px 0px;
   color: white;
   font-size: 36px;
   transition: all 0.1s ease-in;
@@ -87,19 +66,25 @@ nav li a {
 nav li a:hover {
   background-color: #54223e;
 }
+nav .right {
+  float: right;
+}
+nav .right a {
+  width: 80px;
+}
 
 main div p {
   margin-top: 50px;
   margin-bottom: 100%;
 }
 
-footer {
+footer ul {
   box-shadow: 0px -10px 10px 3px rgba(0, 0, 0, 0.1764705882);
   background-color: #410928;
   margin: 0;
   overflow: auto;
 }
-footer li a {
+footer ul li a {
   color: white;
   margin: 0;
   padding: 15px;
@@ -108,7 +93,7 @@ footer li a {
   text-align: center;
   display: block;
 }
-footer li a:hover {
+footer ul li a:hover {
   text-decoration-thickness: 4px;
   background-color: #54223e;
 }
