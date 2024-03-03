@@ -1,3 +1,4 @@
+// Color
 $clr-font-dark: #fff;
 $clr-justwhite: #fff;
 $clr-background: #2b061a;
@@ -11,7 +12,6 @@ $font-regular: Meslo-Regular;
 $font-bold: Meslo-Bold;
 
 // Scrollbar
-
 ::-webkit-scrollbar {
         display: block;
         width: 10px;
@@ -32,33 +32,22 @@ $font-bold: Meslo-Bold;
         border-radius: 1rem;
 }
 
+
+//IMPORTANT!
 * {
         margin: 0;
         padding: 0;
 }
 
-// @import "https://www.nerdfonts.com/assets/css/webfont.css";
-
-@font-face {
-        font-family: Meslo-Bold;
-        src: url(../Fonts/MesloLGLNerdFont-Bold.ttf);
-        font-weight: bold;
-}
-
-@font-face {
-        font-family: Meslo-Regular;
-        src: url(../Fonts/MesloLGLNerdFont-Regular.ttf);
-        font-weight: normal;
-}
-
 body {
         background-color: $clr-background;
         font-family: Arial, Helvetica, sans-serif;
+        color: white;
 }
 
 //Navbar
 nav {
-        // width: 100%;
+        width: 100%;
         overflow: hidden;
         background-color: $clr-navbar;
         color: $clr-font-dark;
@@ -92,13 +81,15 @@ nav {
 
 //Main
 main {
-        div {
-                p {
+
+        .space {
                         margin-top: 50px;
                         margin-bottom: 100%;
-                }
         }
+
 }
+
+
 
 //Footer
 footer {
@@ -125,6 +116,7 @@ footer {
         }
 }
 
+// Accessibility
 .hidden {
         display: none;
 }

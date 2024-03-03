@@ -27,22 +27,14 @@
   padding: 0;
 }
 
-@font-face {
-  font-family: Meslo-Bold;
-  src: url(../Fonts/MesloLGLNerdFont-Bold.ttf);
-  font-weight: bold;
-}
-@font-face {
-  font-family: Meslo-Regular;
-  src: url(../Fonts/MesloLGLNerdFont-Regular.ttf);
-  font-weight: normal;
-}
 body {
   background-color: #2b061a;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 nav {
+  width: 100%;
   overflow: hidden;
   background-color: #410928;
   color: #fff;
@@ -73,7 +65,7 @@ nav .right a {
   width: 80px;
 }
 
-main div p {
+main .space {
   margin-top: 50px;
   margin-bottom: 100%;
 }
