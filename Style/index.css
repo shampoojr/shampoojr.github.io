@@ -99,9 +99,6 @@ footer {
   margin: 0;
   overflow: auto;
 }
-footer a .hidden {
-  display: none;
-}
 footer li a {
   color: white;
   margin: 0;
@@ -111,8 +108,11 @@ footer li a {
   text-align: center;
   display: block;
 }
-footer li a :hover {
-  text-decoration: underline;
+footer li a:hover {
   text-decoration-thickness: 4px;
-  color: #54223e;
+  background-color: #54223e;
+}
+
+.hidden {
+  display: none;
 }/*# sourceMappingURL=index.css.map */
