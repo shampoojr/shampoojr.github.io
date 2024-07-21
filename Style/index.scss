@@ -18,17 +18,21 @@ $font-bold: Meslo-Bold;
         display: block;
         width: 10px;
 }
+
 ::-webkit-scrollbar:hover {
         display: block;
         width: 15px;
 }
+
 ::-webkit-scrollbar-track {
         background-color: $clr-scroll-track;
 }
+
 ::-webkit-scrollbar-thumb {
         background: $clr-scroll-thumb;
         border-radius: 1rem;
 }
+
 ::-webkit-scrollbar-thumb:hover {
         background: $clr-hover;
         border-radius: 1rem;
@@ -53,10 +57,12 @@ nav {
         background-color: $clr-navbar;
         color: $clr-font-dark;
         box-shadow: 0px 5px 10px 3px $clr-shadow-nav;
+
         li {
                 list-style-type: none;
                 float: left;
                 text-decoration: none;
+
                 a {
                         display: block;
                         width: 200px;
@@ -72,8 +78,10 @@ nav {
                         background-color: $clr-hover;
                 }
         }
+
         .right {
                 float: right;
+
                 a {
                         width: 80px;
                 }
@@ -82,23 +90,23 @@ nav {
 
 //Main
 main {
-        div{
-                p{
-                        padding:10px;
+        div {
+                p {
+                        padding: 10px;
                         font-size: 32px;
                         font-weight: 200;
                 }
         }
 
         .space {
-                        margin-top: 50px;
-                        margin-bottom: 100%;
+                margin-top: 50px;
+                margin-bottom: 100%;
         }
 
 }
 
 .card1 {
-        background-color:#fff;
+        background-color: #fff;
 }
 
 
@@ -111,8 +119,10 @@ footer {
                 background-color: $clr-footer;
                 margin: 0;
                 overflow: auto;
+
                 li {
                         list-style-type: none;
+
                         a {
                                 text-decoration: none;
                                 color: $clr-font-dark;
@@ -122,6 +132,7 @@ footer {
                                 display: block;
                                 font-size: 20px;
                         }
+
                         a:hover {
                                 text-decoration-thickness: 4px;
                                 background-color: $clr-hover;
