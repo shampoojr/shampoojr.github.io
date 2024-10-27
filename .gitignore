@@ -2,3 +2,4 @@ test
 .vscode
 /style/index.scss
 /.gitignore
+/style/index.css.map
