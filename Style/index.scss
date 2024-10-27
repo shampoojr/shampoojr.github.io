@@ -10,6 +10,8 @@ $clr-hover: #54223e;
 $clr-scroll-thumb:#5e0e3a;
 $clr-scroll-track:#2b061a;
 
+// Fonts
+$font-family:Arial, Helvetica, sans-serif;
 $font-regular: Meslo-Regular;
 $font-bold: Meslo-Bold;
 
@@ -46,47 +48,11 @@ $font-bold: Meslo-Bold;
 
 body {
         background-color: $clr-background;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-family;
         color: $clr-font-dark;
 }
 
-//Navbar
-nav {
-        width: 100%;
-        overflow: hidden;
-        background-color: $clr-navbar;
-        color: $clr-font-dark;
-        box-shadow: 0px 5px 10px 3px $clr-shadow-nav;
 
-        li {
-                list-style-type: none;
-                float: left;
-                text-decoration: none;
-
-                a {
-                        display: block;
-                        width: 200px;
-                        text-align: center;
-                        padding: 12px 0px;
-                        color: $clr-font-dark;
-                        font-size: 36px;
-                        transition: all 0.1s ease-in;
-                        text-decoration: none;
-                }
-
-                a:hover {
-                        background-color: $clr-hover;
-                }
-        }
-
-        .right {
-                float: right;
-
-                a {
-                        width: 80px;
-                }
-        }
-}
 
 //Main
 main {
@@ -102,14 +68,7 @@ main {
                 margin-top: 50px;
                 margin-bottom: 100%;
         }
-
 }
-
-.card1 {
-        background-color: #fff;
-}
-
-
 
 //Footer
 footer {
@@ -117,12 +76,8 @@ footer {
         ul {
                 box-shadow: 0px -10px 10px 3px $clr-shadow-footer;
                 background-color: $clr-footer;
-                margin: 0;
-                overflow: auto;
 
                 li {
-                        list-style-type: none;
-
                         a {
                                 text-decoration: none;
                                 color: $clr-font-dark;
@@ -139,9 +94,4 @@ footer {
                         }
                 }
         }
-}
-
-// Accessibility
-.hidden {
-        display: none;
 }
